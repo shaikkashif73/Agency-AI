@@ -85,11 +85,22 @@ const Footer = ({ theme }) => {
         className="pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap"
       >
         <p>Copyright 2026 © - KashifTech - All Right Reserved. </p>
-        <div className="flex items-center justify-between gap-4  ">
-          <img src={assets.facebook_icon} alt="" />
-          <img src={assets.twitter_icon} alt="" />
-          <img src={assets.instagram_icon} alt="" />
-          <img src={assets.linkedin_icon} alt="" />
+        <div className="flex items-center justify-between gap-4">
+          <a
+            target="_blank"
+            href=" https://www.linkedin.com/in/shaik-kashif-dev/"
+          >
+            <img src={assets.linkedin_icon} alt="" />
+          </a>
+          <a target="_blank" href="https://x.com/Kashifcodes">
+            <img src={assets.twitter_icon} alt="" />
+          </a>
+          <a target="_blank" href="">
+            <img src={assets.instagram_icon} alt="" />
+          </a>
+          <a target="_blank" href="">
+            <img src={assets.facebook_icon} alt="" />
+          </a>
         </div>
       </motion.div>
     </motion.div>
